@@ -64,7 +64,7 @@ plt.title(
     f"x 10^{resistance_magnitude_str})"
 )
 plt.xlabel("Voltage (V)")
-plt.ylabel("Current (mA)")
+plt.ylabel("Current (A)")
 plt.xlim(plot_x_limits)
 plt.ylim(plot_y_limits)
 
