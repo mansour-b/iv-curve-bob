@@ -255,9 +255,9 @@ plt.errorbar(voltages, currents, yerr=5e-4 * np.ones(len(currents)), fmt="o")
 # Configure display
 plt.title("I-C curve of the diode")
 plt.xlabel("Voltage (V)")
-plt.ylabel("Current (mA)")
+plt.ylabel("Current (A)")
 plt.xlim([-5, 1.1])
-plt.ylim([-100, 1000])
+plt.ylim([-0.02, 0.1])
 
 # Tell python to show the figure
 plt.show()
